@@ -1,6 +1,38 @@
 h1{
-    color: red;
+    color: white;
+    background-color: black;
+    line-height: 2em;
     text-align: center;
+    font-size: 2.5em;
+}
+
+nav{
+    background-color: black;
+    line-height: 2em;
+    display: block;
+}
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:blanchedalmond;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+img{
+    float: left;
+    margin: 20px;
+}
+
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
 }
 
 h3{
@@ -11,6 +43,17 @@ h1,h2,h3,h4,h5,h6{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h6{
+    font-style: italic;
+    font-weight: normal;
+}
+
 body{
     background-color: antiquewhite;
+}
+
+ol{
+    border: solid thin black;
+    padding: 20px;
+    margin: 10px 1070px 10px 660px;
 }
