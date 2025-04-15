@@ -57,3 +57,8 @@ ol{
     padding: 20px;
     margin: 10px 1070px 10px 660px;
 }
+
+#accordion{
+    width: 500px;
+    margin: 50px auto;
+}

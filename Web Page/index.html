@@ -7,6 +7,10 @@
         <meta name="Description" content="This is a webpage about Logan Koeller">
         <meta name="Keywords" content="Logan, Koeller, Logan Koeller">
         <link rel="stylesheet" href="PageStyle.css">
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
     </head>
 
     <body>
@@ -41,14 +45,45 @@
         </p>
 
         <h4>Favorite Book Series</h4>
-        <ol>
-            <li>Red Rising</li>
-            <li>Artemis Fowl</li>
-            <li>The Reckoners</li>
-            <li>The Scythe Trilogy</li>
-            <li>The Apprentice</li>
 
-        </ol>
+        <div id="accordion">
+            <h5>Red Rising</h5>
+            <div>
+              <p>In a color-coded society, a young Red named Darrow realizes the truth of his existence. He chooses to rise up and try to
+                dismantle the Society that oppresses all but Gold.
+              </p>
+            </div>
+            <h5>Artemis Fowl</h5>
+            <div>
+              <p>A young irish heir to a criminal empire discovers fairies. Using keen intellect and ruthless tactics he aims to steal
+                their gold for his own goals, saving his missing father.
+              </p>
+            </div>
+            <h5>The Reckoners</h5>
+            <div>
+              <p>Years ago a red star appeared in the sky, Calamity. Some people became Epics, people with incredible superpowers. This isn't a story about heroes,
+                every Epic seems filled with power fantasy and lust to hurt others. The Reckoners work to kill Epics and restore mankind to some semblance of itself.
+              </p>
+            </div>
+            <h5>The Scythe Trilogy</h5>
+            <div>
+              <p>The cloud, the sum of all human knowledge, evolved into the Thunderhead. Death is no more, no pain or suffering. Still, the Earth has limits to its resources.
+                Scythes are specialized humans sanctioned to kill others, only a death via Scythe cannot be undone. But the world teeters on the brink of chaos as the population
+                continues to balloon.
+              </p>
+            </div>
+            <h5>The Apprentice</h5>
+            <div>
+              <p>A world where magic determines what demonic pet you can control a peasant boy is recruited to the academy. The first time in history, as magic is
+                related to blood and all the noble families already are known. He works hard to avoid scrutiny, evolve his demonic salamander, and avoid calamity
+                as he befriends dwarves and other "unfavorable" while the orc threat continues to encroach on the kingdom.
+              </p>
+            </div>
+          </div>
+           
+          <script>
+          $( "#accordion" ).accordion();
+          </script>
         <!--Not sure anyone is interested in stealing this but copyright is important people-->
         <h6>Copyright &copy; Logan Koeller 2025</h6>
 
